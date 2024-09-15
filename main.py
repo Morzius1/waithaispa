@@ -186,7 +186,7 @@ def main():
     headers={
         'User-Agent':ua.random
             }
-    proxy_list=['socks5://Yqnhp8:8Fh2Bq@147.45.122.60:9576','socks5://vyagHY:JSb6Tr@5.8.12.244:9248']
+    proxy_list=['socks5://login:password@ip:port']
     prox_ip=random.choice(proxy_list)
     prox={
             'http': f'{prox_ip}',
