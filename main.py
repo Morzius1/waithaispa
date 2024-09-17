@@ -104,7 +104,6 @@ class Work:
         wb=Workbook()
         ws=wb.active
         ws.title='inf'
-        ws.append(['Наименование',"Адрес","Номер(а) телефона(ов)","Ссылка на сайт","Ссылка на запись","Имя мастера","Описание мастера","Ссылка на фото"])
         with SB(sjw=True,pls='none',uc=True) as sb:
             for i in self.failed_salons_urls:
                 sb.open(i)
